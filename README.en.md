@@ -57,7 +57,7 @@ You can run `uv run python main.py --help` to see all available arguments.
 
 | Argument | Options | Default | Description |
 | :--- | :--- | :--- | :--- |
-| `--web` | `1`, `2`, `3`, `top2`, `all` | `all` | **Specify websites to scrape**:<br>• `1`: freereceivesms.com<br>• `2`: receive-smss.com<br>• `3`: temp-number.com<br>• `top2`: Scrape the top 2 websites<br>• `all`: Scrape all websites |
+| `--web` | `1`, `2`, `3`, `top2`, `all` | `all` | **Specify websites to scrape**:<br>• `1`: freereceivesms.com<br>• `2`: temp-number.com<br>• `3`: receive-smss.com<br>• `top2`: Scrape the top 2 websites<br>• `all`: Scrape all websites |
 | `--lan` | `zh`, `en` | `en` | **Set display language**:<br>• `zh`: Traditional Chinese<br>• `en`: English |
 | `--ngrok_token` | `YOUR_TOKEN` | Value from `config.toml` | **Set ngrok token**:<br>Provide your ngrok Authtoken via the command line. This overrides the setting in `config.toml`. |
 

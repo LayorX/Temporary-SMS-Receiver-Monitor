@@ -63,7 +63,7 @@
 
 | 參數 | 選項 | 預設值 | 說明 |
 | :--- | :--- | :--- | :--- |
-| `--web` | `1`, `2`, `3`, `top2`, `all` | `all` | **指定要爬取的網站**：<br>• `1`: freereceivesms.com<br>• `2`: receive-smss.com<br>• `3`: temp-number.com<br>• `top2`: 爬取前兩個網站<br>• `all`: 爬取所有網站 |
+| `--web` | `1`, `2`, `3`, `top2`, `all` | `all` | **指定要爬取的網站**：<br>• `1`: freereceivesms.com<br>• `2`: temp-number.com<br>• `3`: receive-smss.com<br>• `top2`: 爬取前兩個網站<br>• `all`: 爬取所有網站 |
 | `--lan` | `zh`, `en` | `zh` | **設定顯示語言**：<br>• `zh`: 繁體中文<br>• `en`: 英文 |
 | `--ngrok_token` | `YOUR_TOKEN` | `config.toml` 中的值 | **設定 ngrok 權杖**：<br>直接透過命令列提供您的 ngrok Authtoken，此參數會覆寫 `config.toml` 中的設定。 |
 
